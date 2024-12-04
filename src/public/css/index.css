@@ -1,0 +1,135 @@
+.header__search {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.header__search-form{
+    display: flex;
+    border-radius: 0.5vw;
+    box-shadow: 0.1vw 0.1vw 0.2vw #9D9D9D;
+}
+
+
+.header__select-area{
+    width: 7vw;
+    height: 3.5vw;
+    padding-left: 0.7vw;
+    border-radius: 0.5vw 0px 0px 0.5vw;
+    border: none;
+    outline: none;
+    font-size: 1vw;
+    appearance: none;
+}
+
+.header__select-genre {
+    width: 7.3vw;
+    height: 3.5vw;
+    padding-left: 0.7vw;
+    border: none;
+    outline: none;
+    font-size: 1vw;
+    appearance: none;
+
+}
+
+.header__search-shop-name {
+    width: 28vw;
+    height: 3.5vw;
+    padding-left: 0.7vw;
+    border-radius: 0px 0.5vw 0.5vw 0px;
+    border: none;
+    outline: none;
+    font-size: 1vw;
+}
+
+.header__search-vertical-line{
+    width: 0.1vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.7vw;
+    /* margin-right: 10px; */
+    background-color: #EEEEEE;
+}
+
+.cards-wrap{
+    /* width: 86.2vw; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    /* width: 21vw; */
+    border-radius: 0.5vw;
+    background-color: #FFFFFF;
+    margin-bottom: 1.7vw;
+    box-shadow: 0.1vw 0.1vw 0.2vw #9D9D9D;
+}
+
+img{
+    width: 21vw;
+    aspect-ratio: 300/150;
+    /* height: 150px; */
+    object-fit: cover;
+    border-radius: 0.5vw 0.5vw 0px 0px;
+    /* box-shadow: 0.1vw 0vw 0.2vw #9D9D9D; */
+}
+
+.card__content-wrap{
+    width: 21vw;
+    aspect-ratio: 300/130;
+    padding-left: 1.4vw;
+    border-radius: 0vw 0vw 0.5vw 0.5vw;
+    /* box-shadow: 0.1vw 0.1vw 0.2vw #9D9D9D; */
+}
+
+h2{
+    font-size: 1.5vw;
+    margin-bottom: 0;
+}
+
+.card__tag{
+    font-size: 0.9vw;
+}
+
+.card__button-heart-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.7vw;
+    aspect-ratio: 97/31;
+    font-size: 1vw;
+    color: #FFFFFF;
+    text-align: center;
+    /* padding-top: 0.6vw;
+    padding-bottom: 0.6vw; */
+    border-radius: 0.5vw;
+    margin-top: 5.7%;
+    margin-bottom: 5.7%;
+    background-color: #3560f6;
+}
+
+a{
+    color: #FFFFFF;
+}
+
+.card__heart {
+    width: 2.2vw;
+    aspect-ratio: 32/27;
+    /* width: 30px;
+    height: 30px; */
+    /* font-size: 30px; */
+    /* margin-right: 20px; */
+    margin-right: 1.4vw;
+    /* padding-bottom: 10px; */
+    /* padding-bottom: 0.7vw; */
+    background-color: #EEEEEE;
+}

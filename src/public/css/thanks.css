@@ -1,0 +1,36 @@
+.content__wrap{
+    display: flex;
+    justify-content: center;
+}
+.card__thanks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 31vw;
+    aspect-ratio: 450/303;
+    background-color: #FFFFFF;
+    border-radius: 0.5vw;
+    box-shadow: 0.1vw 0.1vw 0.2vw #9D9D9D;
+}
+
+.card__text{
+    font-size: 1.7vw;
+}
+
+
+.card__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.5vw;
+    aspect-ratio: 108/31;
+    background-color: #3560f6;
+    border-radius: 0.5vw;
+}
+
+a{
+    font-size: 1vw;
+    color: #FFFFFF;
+    text-decoration: none;
+}

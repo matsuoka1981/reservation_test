@@ -1,0 +1,198 @@
+/* ユーザー名エリアラップ */
+.y-1{
+    width: 86.2vw;
+    aspect-ratio: 1240/76;
+}
+
+/* ユーザー名 */
+h2{
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 0;
+}
+
+/* 予約状況とお気に入りのラップ */
+.y-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 予約状況コーナー全体ラップ */
+.y-2-1{
+    width: 31vw;
+    margin-left: 1.32vw;
+}
+
+/* 予約状況タイトル */
+.y-2-1-1{
+    font-size: 1.4vw;
+}
+
+/* 予約状況カード複数ラップ */
+.y-2-1-2-wrap{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+/* 予約状況カードラップ */
+.y-2-1-2{
+    width: 30.9vw;
+    height: 18.64vw;
+    background-color: #3560F6;
+    aspect-ratio: 445/268;
+    border-radius: 0.5vw;
+    box-shadow: 0.1vw 0.1vw 0.2vw #9D9D9D;
+    color: #FFFFFF;
+    margin-bottom: 1.7vw;
+}
+
+/* 予約状況カードタイトルと削除ボタンのラップ */
+.y-2-1-2-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vw;/* 適当な値 */
+}
+
+/* 予約状況カードタイトル */
+.y-2-1-2-1-1{
+    font-size: 1vw;/* 適当な値 */
+    margin-left: 7vw;/* 適当な値 */
+}
+
+/* 予約状況カードの削除ボタン */
+.y-2-1-2-1-2 {
+    width: 1vw; /* 適当な値 */
+    aspect-ratio: 1/1; /* とりあえず仮で */
+    background-color: #FFFFFF;
+    margin-right: 3vw; /* 適当な値 */
+}
+
+/* 予約状況テーブルのアウター */
+.table__outer {
+    width: 33vw;/* 適当な値 */
+    /* height: 11vw; */
+    padding-top: 2vw;/* 適当な値 */
+    padding-bottom: 2vw;/* 適当な値 */
+}
+
+th,
+td {
+    /* vertical-align: middle; */
+    font-size: 1vw;/* 適当な値 */
+    /* border: 1px solid black; */
+    height: 2.5vw;/* 適当な値 */
+
+}
+
+th {
+    width: 10vw;/* 適当な値 */
+    text-align: left;
+    font-weight: 400;
+    padding-left: 2vw;/* 適当な値 */
+}
+
+/* お気に入りコーナー全体ラップ */
+.y-2-2{
+    width: 46vw;
+    margin-right: 1.32vw;
+    /* background-color: yellow; */
+}
+
+/* お気に入りタイトル */
+.y-2-2-1{
+    font-size: 1.4vw;
+}
+
+/* お切りに入りカードを複数ラップ */
+.y-2-2-2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* お気に入りカード */
+.y-2-2-2-1{
+    /* width: 21vw; */
+    /* aspect-ratio: 300/280; */
+    /* background-color: #FFFFFF; */
+    margin-bottom: 1.7vw;
+    border-radius: 0.5vw;
+    box-shadow: 0.1vw 0.1vw 0.2vw #9D9D9D;
+}
+
+/* imgをラップ */
+/* .y-2-2-2-1-1 {
+    width: 21vw;
+    aspect-ratio: 300/150;
+    overflow: hidden;
+} */
+
+img {
+    width: 21vw;
+    aspect-ratio: 300/150;
+    object-fit: cover;
+    border-radius: 0.5vw 0.5vw 0vw 0vw;
+}
+
+/* カードの文字部分のラップ */
+.y-2-2-2-1-2{
+    /* width: 20.87vw; */
+    aspect-ratio: 300/130;
+    padding-top: 1.5vw;
+    padding-left: 1.4vw;
+    background-color: #FFFFFF;
+    border-radius: 0vw 0vw 0.5vw 0.5vw;
+    box-shadow: 0.1vw 0.1vw 0.2vw #9D9D9D;
+}
+
+/* 店の名前 */
+.y-2-2-2-1-2-1 {
+    font-size: 1.5vw;
+    font-weight: 700;
+    /* margin-top: 1.5vw; */
+}
+
+.y-2-2-2-1-2-2{
+    font-size: 0.9vw;
+}
+
+.card__button-heart-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.y-2-2-2-1-2-3 {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 6.7vw;
+        aspect-ratio: 97/31;
+        font-size: 1vw;
+        color: #FFFFFF;
+        text-align: center;
+        /* padding-top: 0.6vw;
+        padding-bottom: 0.6vw; */
+        border-radius: 0.5vw;
+        margin-top: 5.7%;
+        margin-bottom: 5.7%;
+        background-color: #3560f6;
+}
+
+a{
+    color: #FFFFFF;
+}
+
+.card__heart {
+    width: 2.2vw;
+    aspect-ratio: 32/27;
+    /* width: 30px;
+    height: 30px; */
+    /* font-size: 30px; */
+    /* margin-right: 20px; */
+    margin-right: 1.4vw;
+    /* padding-bottom: 10px; */
+    /* padding-bottom: 0.7vw; */
+    background-color: #EEEEEE;
+}

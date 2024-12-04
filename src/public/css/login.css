@@ -1,0 +1,88 @@
+.content__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.card__register-wrap {
+    /* width: 27.8vw;
+    aspect-ratio: 400/276;
+    background-color: yellow; */
+    border-radius: 0.5vw;
+    box-shadow: 0.1vw 0.1vw 0.2vw #9D9D9D;
+}
+
+.card__register-header {
+    width: 27.8vw;
+    aspect-ratio: 400/60;
+    display: flex;
+    align-items: center;
+    background-color: #3560f6;
+    border-radius: 0.5vw 0.5vw 0px 0px;
+}
+
+.card__register-header-heading {
+    font-size: 1vw;
+    /* font-weight: 100; */
+    color: #FFFFFF;
+    margin-left: 1.46vw;
+}
+
+.card__register-form-content {
+    width: 27.8vw;
+    aspect-ratio: 400/171;
+    border-radius: 0px 0px 0.5vw 0.5vw;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__register-form-content-inner {
+    width: 23.6vw;
+    aspect-ratio: 340/125;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.card__register-name {
+    border: none;
+    border-bottom: 0.1vw solid #000;
+    outline: none;
+    font-size: 0.9vw;
+    font-weight: 700;
+}
+
+.card__register-email {
+    border: none;
+    border-bottom: 0.1vw solid #000;
+    outline: none;
+    font-size: 0.9vw;
+    font-weight: 700;
+}
+
+.card__register-password {
+    border: none;
+    border-bottom: 0.1vw solid #000;
+    outline: none;
+    font-size: 0.9vw;
+    font-weight: 700;
+}
+
+.card__register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.7vw;
+    aspect-ratio: 82/31;
+    border: none;
+    border-radius: 0.5vw;
+    background-color: #3560f6;
+    color: #FFFFFF;
+    font-size: 1vw;
+    align-self: flex-end;
+    margin-top: 5%;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
